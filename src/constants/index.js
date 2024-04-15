@@ -10,3 +10,9 @@ export const Service = [
     {image: "../src/assets/UiUx.svg", heading: "UI/UX Design", paragh: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt qui, natus molestias doloremque dolorum harum illo alias! Obcaecati, blanditiis! Unde dicta numquam nulla, reiciendis suscipit a nihil explicabo tenetur ullam?"},
     {image: "../src/assets/server.svg", heading: "Backend Development", paragh: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque esse id reprehenderit nulla itaque, ipsum possimus, accusantium ipsa quae fugit atque in natus alias autem iusto dolores quibusdam illo doloribus?"}
 ];
+
+export const Project = [
+    {image: "../src/assets/social.jpg", paragh: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, alias."},
+    {image: "../src/assets/travel.jpg", paragh: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, alias."},
+    {image: "../src/assets/chat.jpg", paragh: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, alias."}
+]
