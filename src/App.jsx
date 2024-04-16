@@ -7,6 +7,7 @@ import Nav from './components/Nav'
 import AboutMe from './section/AboutMe'
 import Services from './section/Services'
 import Projects from './section/Projects'
+import Contact from './section/Contact'
 
 const App = () => 
 (
@@ -31,6 +32,9 @@ const App = () =>
     </section>
     <section>
       <Projects />
+    </section>
+    <section>
+      <Contact />
     </section>
   </main>
 )

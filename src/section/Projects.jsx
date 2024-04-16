@@ -16,12 +16,18 @@ const Projects = () => {
               <div className="flex relative w-96 group bg-slate-900 hover:shadow-2xl hover:shadow-black transition-all duration-300 ease-in-out hover:scale-105">
                     <img
                       src={item.image}
-                      alt="social-app"
+                      alt="website-image"
                       className="rounded-2xl group-hover:opacity-50 transition-opacity duration-300"
                     />
-                    <p className="absolute bottom-0 text-white p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      {item.paragh}
-                    </p>
+                    <div className="absolute bottom-0 text-white p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+                      <a href="">
+                        <h6 className=" text-amber-400  hover:text-white font-semibold">{item.projectName}</h6>
+                      </a>
+                      <br />
+                      <p className="">
+                        {item.paragh}
+                      </p>
+                    </div>
               </div>
             ))}
           </div>

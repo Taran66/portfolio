@@ -12,7 +12,7 @@ export const Service = [
 ];
 
 export const Project = [
-    {image: "../src/assets/social.jpg", paragh: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, alias."},
-    {image: "../src/assets/travel.jpg", paragh: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, alias."},
-    {image: "../src/assets/chat.jpg", paragh: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, alias."}
+    {image: "../src/assets/social.jpg", projectName: "Social App", paragh: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, alias."},
+    {image: "../src/assets/travel.jpg", projectName: "Travel Website", paragh: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, alias."},
+    {image: "../src/assets/chat.jpg", projectName: "Chat Application", paragh: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, alias."}
 ]

@@ -23,7 +23,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="flex gap-40">
-          <img className="w-4/12" src="../src/assets/AboutMe.svg" alt="" />
+        <img src="../src/assets/AboutMe.svg" alt="About Me" width="500" height="400" />
           <div className="flex flex-col gap-10 bg-slate-950 p-10 rounded-2xl">
             <p className="text-white text-justify text-lg">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -36,8 +36,7 @@ const AboutMe = () => {
             <ul className="flex gap-10 text-white text-2xl font-bold">
             <li
                 className={`hover:text-amber-400 ${
-                  activeSection === 'skills' ? 'text-amber-400' : ''
-                } cursor-pointer`}
+                  activeSection === 'skills' ? 'text-amber-400' : ''} cursor-pointer`}
                 onClick={() => handleSectionClick('skills')}
               >
                 Skills
