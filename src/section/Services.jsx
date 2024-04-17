@@ -13,7 +13,7 @@ const Services = () => {
           </div>
           <div className="flex text-white gap-20">
               {Service.map((item)=> (
-                <div className="flex flex-col gap-10 bg-slate-950 justify-between items-center hover:shadow-2xl hover:shadow-black transition-all duration-300 ease-in-out hover:scale-105 rounded-3xl p-10">
+                <div className="flex flex-col gap-10 bg-slate-950 justify-between items-center hover:shadow-2xl hover:shadow-purple-950 transition-all duration-300 ease-in-out hover:scale-105 rounded-3xl p-10">
                     <img src={item.image} width={200} alt="#" />
                     <div className="flex flex-col gap-4">
                       <h2 className="text-amber-400 text-2xl">{item.heading}</h2>

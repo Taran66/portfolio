@@ -23,7 +23,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="flex gap-40">
-        <img src="../src/assets/AboutMe.svg" alt="About Me" width="500" height="400" />
+        <img src="../src/assets/Taran.svg"  alt="About Me" width="500" height="400" />
           <div className="flex flex-col gap-10 bg-slate-950 p-10 rounded-2xl">
             <p className="text-white text-justify text-lg">
               Lorem Ipsum is simply dummy text of the printing and typesetting
