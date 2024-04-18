@@ -2,7 +2,7 @@ import { FaInstagram, FaLinkedinIn, FaPhoneAlt, FaTelegramPlane} from 'react-ico
 
 const LeftsideContact = () => {
   return (
-    <div className='text-white flex flex-col justify-between '>
+    <div className='text-white flex flex-col justify-between gap-20'>
         <h2 className='text-7xl'>Contact Me</h2>
         <div className='flex gap-10 items-center'>
             <FaTelegramPlane className='text-4xl'/>
@@ -20,7 +20,7 @@ const LeftsideContact = () => {
             <FaLinkedinIn className='hover:-translate-y-2 hover:text-amber-400 duration-300 ease-in-out'/>
         </a>
         </div>
-        <button type='submit' className='text-3xl bg-amber-400 rounded-md w-8/12 p-3 text-black hover:bg-amber-500 duration-500 ease-in-out'>Download CV</button>
+        <button type='submit' className='text-3xl bg-amber-400 rounded-md w-8/12 p-3 text-black hover:bg-amber-500 duration-300 ease-in-out'>Download CV</button>
     </div>
   )
 }
