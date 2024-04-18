@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion, AnimatePresence } from "framer-motion";
 
 const AboutMe = () => {
   const [activeSection, setActiveSection] = useState('skills');
@@ -8,7 +9,7 @@ const AboutMe = () => {
   };
 
   return (
-    <div className="bg-gray-900 h-screen flex justify-center items-center">
+    <div className="bg-black h-screen flex justify-center items-center">
       <div className="max-container relative flex flex-col gap-20">
         <div className="flex justify-center">
           <div className="flex justify-center">
@@ -23,8 +24,8 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="flex gap-40">
-        <img src="../src/assets/Taran.svg"  alt="About Me" width="500" height="400" />
-          <div className="flex flex-col gap-10 bg-slate-950 p-10 rounded-2xl">
+            <img src="../src/assets/Taran.jpeg"  alt="About Me" width="550" height="450" className='rounded-2xl'/>
+          <div className="flex flex-col gap-10 bg-slate-900 p-10 rounded-2xl">
             <p className="text-white text-justify text-lg">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
