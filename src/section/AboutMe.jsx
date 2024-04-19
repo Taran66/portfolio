@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from "framer-motion";
 
 const AboutMe = () => {
   const [activeSection, setActiveSection] = useState('skills');

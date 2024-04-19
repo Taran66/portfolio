@@ -1,7 +1,7 @@
 const RightsideContact = () => {
   return (
     <div className='flex justify-center w-6/12'>
-        <form className='flex flex-col justify-between  w-10/12'>
+        <form className='flex flex-col justify-between w-10/12'>
             <input type="text" className='rounded-lg outline-none text-xl p-3 text-black' placeholder='Your Name'/>
             <input type="email" className='rounded-lg outline-none text-xl p-3 text-black' placeholder='Your Email'/>
             <textarea className='h-32 rounded-lg outline-none text-xl p-3 text-black' placeholder='Your Message'/>

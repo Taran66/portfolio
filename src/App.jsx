@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 const App = () => 
 (
   <main>
-    <section id='Home'>
+    <section>
       <div
           className="absolue inset-0 bg-cover bg-center bg-no-repeat h-screen "
           style={{
