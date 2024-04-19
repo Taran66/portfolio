@@ -2,7 +2,7 @@ import { FaInstagram, FaLinkedinIn, FaPhoneAlt, FaTelegramPlane} from 'react-ico
 
 const LeftsideContact = () => {
   return (
-    <div className='text-white flex flex-col justify-between gap-20'>
+    <div className='text-white flex flex-col justify-between gap-10'>
         <h2 className='text-7xl'>Contact Me</h2>
         <div className='flex gap-10 items-center'>
             <FaTelegramPlane className='text-4xl'/>
