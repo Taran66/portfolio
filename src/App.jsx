@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from './section/Hero'
 import Nav from './components/Nav'
@@ -13,7 +10,7 @@ import Footer from './components/Footer'
 const App = () => 
 (
   <main>
-    <section>
+    <section id='Home'>
       <div
           className="absolue inset-0 bg-cover bg-center bg-no-repeat h-screen "
           style={{
@@ -23,18 +20,18 @@ const App = () =>
         <Nav />
         <Hero />
       </div>
-      <div className="absolute inset-0 bg-slate-950 opacity-70"></div>
+      <div className="absolute inset-0 bg-black opacity-70"></div>
     </section>
-    <section>
+    <section id='AboutMe'>
       <AboutMe />
     </section>
-    <section>
+    <section id='Services'>
       <Services />
     </section>
-    <section>
+    <section id='Projects'>
       <Projects />
     </section>
-    <section>
+    <section id='Contact'>
       <Contact />
     </section>
     <section>
