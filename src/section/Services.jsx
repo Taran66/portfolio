@@ -2,7 +2,7 @@ import { Service } from "../constants"
 
 const Services = () => {
   return (
-    <div className="bg-gray-900 h-screen flex justify-center items-center">
+    <div className="h-screen flex justify-center items-center">
       <div className="max-container relative flex flex-col gap-10">
         <div className="flex justify-center flex-col gap-20">
           <div className="flex justify-center">

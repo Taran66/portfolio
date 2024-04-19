@@ -2,7 +2,7 @@ import { Project } from "../constants"
 
 const Projects = () => {
   return (
-    <div className="bg-gray-900 h-screen flex justify-center items-center">
+    <div className="h-screen flex justify-center items-center">
       <div className="max-container relative ">
         <div className="flex flex-col gap-20">
           <div className="flex justify-center">
@@ -11,17 +11,18 @@ const Projects = () => {
             </a>
           <h3 className="text-center text-amber-400 z-20 text-4xl absolute top-0">Projects</h3>
           </div>
-          <div className="flex gap-20 justify-center">
+          <div className="flex gap-20 justify-center ">
           {Project.map((item)=>(
-              <div className="flex relative w-96 group bg-slate-900 hover:shadow-2xl hover:shadow-black transition-all duration-300 ease-in-out hover:scale-105">
+              <div className="">
                     <img
                       src={item.image}
                       alt="website-image"
-                      className="rounded-2xl group-hover:opacity-50 transition-opacity duration-300"
+                      className=""
+                      width={300}
                     />
-                    <div className="absolute bottom-0 text-white p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+                    <div className="">
                       <a href="">
-                        <h6 className=" text-amber-400  hover:text-white font-semibold">{item.projectName}</h6>
+                        <h6 className="">{item.projectName}</h6>
                       </a>
                       <br />
                       <p className="">
