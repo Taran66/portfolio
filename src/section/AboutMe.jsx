@@ -26,12 +26,7 @@ const AboutMe = () => {
             <img src="../src/assets/AboutMe.svg"  alt="About Me" width="550" height="450" className='rounded-2xl'/>
           <div className="flex flex-col gap-10 bg-slate-900 p-10 rounded-2xl">
             <p className="text-white text-justify text-lg">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
+            As a frontend developer, I specialize in creating visually appealing and user-friendly web interfaces. With expertise in React and Tailwind CSS, I craft responsive and modern designs that enhance user experience. Proficient in Git version control, I collaborate seamlessly with teams. Additionally, my basic Node.js knowledge allows me to integrate frontend components with backend functionality seamlessly. Driven by a passion for coding and a commitment to delivering high-quality work, I constantly strive to push the boundaries of web development.
             </p>
             <ul className="flex gap-10 text-white text-2xl font-bold">
             <li

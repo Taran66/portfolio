@@ -13,7 +13,7 @@ const Projects = () => {
           </div>
           <div className="flex gap-20 justify-center ">
           {Project.map((item)=>(
-              <div className=" flex flex-col justify-between items-center gap-10 bg-slate-900 p-10 rounded-3xl hover:shadow-2xl hover:shadow-neutral-300 transition-all duration-300 ease-in-out hover:scale-105 rounded-3xl">
+              <div className=" flex flex-col justify-between items-center gap-10 bg-slate-900 p-10 rounded-3xl hover:shadow-2xl hover:shadow-gray-500 transition-all duration-300 ease-in-out hover:scale-105 rounded-3xl">
                     <img
                       src={item.image}
                       alt="website-image"
@@ -24,9 +24,9 @@ const Projects = () => {
                         <h6 className="text-amber-400 text-2xl">{item.projectName}</h6>
                       </a>
                       <br />
-                      <p className="">
+                      {/* <p className="">
                         {item.paragh}
-                      </p>
+                      </p> */}
                     </div>
               </div>
             ))}

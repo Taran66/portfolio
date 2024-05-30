@@ -15,7 +15,7 @@ const Services = () => {
               {Service.map((item)=> (
                 <div 
                 key={item.id}
-                className="flex flex-col gap-10 bg-slate-900 justify-between items-center hover:shadow-2xl hover:shadow-neutral-300 transition-all duration-300 ease-in-out hover:scale-105 rounded-3xl p-10">
+                className="flex flex-col gap-10 bg-slate-900 justify-between items-center hover:shadow-2xl hover:shadow-gray-500 transition-all duration-300 ease-in-out hover:scale-105 rounded-3xl p-10">
                     <img src={item.image} width={200} alt="#"/>
                     <div className="flex flex-col gap-4">
                       <h2 className="text-amber-400 text-2xl">{item.heading}</h2>

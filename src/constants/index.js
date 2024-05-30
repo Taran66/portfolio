@@ -9,17 +9,17 @@ export const Service = [
     {id: 1,
     image: "../src/assets/frameworks.svg",
     heading: "Frontend Development",
-    paragh: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, odio accusantium officia atque perspiciatis dignissimos quisquam recusandae beatae rem vel voluptate tempore voluptatem. Est, nemo esse corrupti eligendi autem odio?"},
+    paragh: "Crafting pixel-perfect user interfaces with React, enhancing aesthetics through Tailwind CSS styling. Delivering responsive, modern web experiences for seamless cross-device functionality."},
 
     {id: 2,
     image: "../src/assets/UiUx.svg",
     heading: "UI/UX Design",
-    paragh: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt qui, natus molestias doloremque dolorum harum illo alias! Obcaecati, blanditiis! Unde dicta numquam nulla, reiciendis suscipit a nihil explicabo tenetur ullam?"},
+    paragh: "Designing intuitive and visually captivating user interfaces, ensuring exceptional user experiences. Crafting seamless interactions through user-centric design principles and research."},
 
     {id: 3,
     image: "../src/assets/server.svg",
     heading: "Backend Development",
-    paragh: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque esse id reprehenderit nulla itaque, ipsum possimus, accusantium ipsa quae fugit atque in natus alias autem iusto dolores quibusdam illo doloribus?"}
+    paragh: "Expanding skillset to backend development, exploring Node.js and server-side technologies. Keen learner, actively acquiring knowledge to deliver comprehensive full-stack solutions."}
 ];
 
 export const Project = [
